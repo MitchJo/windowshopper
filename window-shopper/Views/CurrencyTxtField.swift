@@ -8,11 +8,11 @@
 
 import UIKit
 
-//@IBDesignable
+@IBDesignable
 class CurrencyTxtField: UITextField {
-    //override func prepareForInterfaceBuilder() {
-    //    customizeView();
-   // }
+    override func prepareForInterfaceBuilder() {
+       customizeView();
+    }
     override func awakeFromNib() {
         super.awakeFromNib()
         customizeView()
